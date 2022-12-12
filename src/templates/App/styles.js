@@ -1,8 +1,3 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
-export const Wrapper = styled.div`
-    ${({ theme }) => css`
-        font-size: 20px;
-        background: ${theme.colors.secondaryBg};
-    `}
-`;
+export const Wrapper = styled.div``;
