@@ -16,7 +16,7 @@ describe('<NavLinks />', () => {
     expect(screen.queryAllByText(/linksw/i)).toHaveLength(0);
   });
 
-  it('should render links', () => {
+  it('should render parent links', () => {
     renderTheme(<NavLinks links={mock} />);
     expect(screen.getByText(/link 10/i).parentElement).toHaveStyleRule(
       'flex-flow',
@@ -26,7 +26,7 @@ describe('<NavLinks />', () => {
   });
 
   it('should match snapshot', () => {
-    renderTheme(<NavLinks links={mock} />);
-    expect(screen.getAllByRole('link')).toMatchSnapshot();
+    const { container } = renderTheme(<NavLinks links={mock} />);
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
