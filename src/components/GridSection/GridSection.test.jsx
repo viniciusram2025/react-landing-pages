@@ -1,10 +1,10 @@
 import { screen } from '@testing-library/react';
-import { SectionBackground } from '.';
+import { GridSection } from '.';
 import { renderTheme } from '../../styles/render-theme';
 
-describe('<SectionBackground />', () => {
+describe('<GridSection />', () => {
   it('should render', () => {
-    renderTheme(<SectionBackground>Children</SectionBackground>);
+    renderTheme(<GridSection>Children</GridSection>);
     expect(screen.getByRole('heading')).toBeInTheDocument();
   });
 });
