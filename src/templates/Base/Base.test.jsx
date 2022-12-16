@@ -1,10 +1,10 @@
 import { screen } from '@testing-library/react';
-import { Dummy } from '.';
+import { Base } from '.';
 import { renderTheme } from '../../styles/render-theme';
 
-describe('<Dummy />', () => {
+describe('<Base />', () => {
   it('should render', () => {
-    renderTheme(<Dummy>Children</Dummy>);
+    renderTheme(<Base>Children</Base>);
     expect(screen.getByRole('heading')).toBeInTheDocument();
   });
 });

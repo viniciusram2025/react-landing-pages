@@ -65,7 +65,7 @@ exports[`<GridContent /> should render grind content 1`] = `
         <div
           class="c4"
         >
-          <div
+          <p
             class="c5"
           >
             <p>
@@ -150,7 +150,7 @@ exports[`<GridContent /> should render grind content 1`] = `
     
               </code>
             </pre>
-          </div>
+          </p>
         </div>
       </div>
     </div>
@@ -223,7 +223,7 @@ exports[`<GridContent /> should render grind content 2`] = `
         <div
           class="c4"
         >
-          <div
+          <p
             class="c5"
           >
             <p>
@@ -308,7 +308,7 @@ exports[`<GridContent /> should render grind content 2`] = `
     
               </code>
             </pre>
-          </div>
+          </p>
         </div>
       </div>
     </div>

@@ -21,7 +21,6 @@ exports[`<Menu /> should not render links 1`] = `
   right: 0;
   bottom: 0;
   width: 100%;
-  height: 100%;
   border-bottom: #DDDDDD;
   background: #FFFFFF;
   -webkit-transition: all 300ms ease-in-out;
@@ -148,7 +147,10 @@ exports[`<Menu /> should not render links 1`] = `
 
 @media (max-width:768px) {
   .c0 {
-    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-align-items: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -244,7 +246,6 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
   right: 0;
   bottom: 0;
   width: 100%;
-  height: 100%;
   border-bottom: #DDDDDD;
   background: #FFFFFF;
   -webkit-transition: all 300ms ease-in-out;
@@ -398,7 +399,10 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
 
 @media (max-width:768px) {
   .c0 {
-    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-align-items: center;
     -webkit-box-align: center;
     -ms-flex-align: center;

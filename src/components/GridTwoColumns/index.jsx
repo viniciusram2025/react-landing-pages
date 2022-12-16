@@ -16,7 +16,7 @@ export const GridTwoColumns = ({ title, text, srcImg, background = false }) => {
         </Styled.TextContainer>
 
         <Styled.ImgContainer>
-          <Styled.Image src={srcImg} />
+          <Styled.Image src={srcImg} alt={title} />
         </Styled.ImgContainer>
       </Styled.Container>
     </SectionBackground>

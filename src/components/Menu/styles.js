@@ -17,7 +17,7 @@ export const Container = styled.div`
         right: 0;
         bottom: 0;
         width: 100%;
-        height: 100%;
+        //height: 100%;
         border-bottom: ${theme.colors.mediumGray};
         background: ${theme.colors.white};
         transition: all 300ms ease-in-out;
@@ -85,7 +85,7 @@ export const Button = styled.button`
         pointer-events: ${visible ? 'none' : 'all'};
 
         @media ${theme.media.lteMedium} {
-            display: block;
+            display: flex;
             align-items: center;
             justify-content: center;
 

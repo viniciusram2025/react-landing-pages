@@ -17,7 +17,7 @@ export default {
     ),
   },
   argTypes: {
-    children: { type: 'string' },
+    children: { type: '' },
   },
 };
 
