@@ -4,8 +4,10 @@ import { Container as TextComponent } from '../../components/TextComponent/style
 
 export const Container = styled.div`
   ${({ theme }) => css`
-    & > ${TextComponent} {
-      font-size: ${theme.fonts.sizes.small};
+    padding-top: 5.4rem;
+
+    @media ${theme.media.lteMedium} {
+      padding-top: 0;
     }
   `}
 `;

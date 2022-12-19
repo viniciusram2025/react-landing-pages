@@ -13,7 +13,7 @@ export const Container = styled.footer`
       text-decoration: none;
     }
 
-    & > ${TextComponent} {
+    & ${TextComponent} {
       font-size: ${theme.fonts.sizes.small};
     }
 
