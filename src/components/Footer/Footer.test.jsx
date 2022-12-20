@@ -28,7 +28,7 @@ describe('<Footer />', () => {
         text-decoration: none;
       }
 
-      .c0 > .c3 {
+      .c0 .c3 {
         font-size: 1.6rem;
       }
 
