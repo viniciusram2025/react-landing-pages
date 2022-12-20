@@ -900,11 +900,7 @@ exports[`<Base /> should render 1`] = `
       >
         <p
           class="c15 c16"
-        >
-          <p>
-            Teste de Footer
-          </p>
-        </p>
+        />
       </div>
     </footer>
   </div>
