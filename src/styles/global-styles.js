@@ -35,4 +35,10 @@ export const GlobalStyles = createGlobalStyle`
     a {
         color: ${({ theme }) => theme.colors.secondaryColor};
     }
+
+    //para corrigir a table q não tem no progeto kkkk
+    .table {
+      width: 100%;
+      overflow-y: auto;
+    }
 `;
